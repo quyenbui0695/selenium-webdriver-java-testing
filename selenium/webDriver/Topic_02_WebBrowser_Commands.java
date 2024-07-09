@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_02_webBrowser_Commands {
+public class Topic_02_WebBrowser_Commands {
     WebDriver driver;
 
     @BeforeClass

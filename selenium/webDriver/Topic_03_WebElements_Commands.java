@@ -2,14 +2,13 @@ package webDriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_03_webElements_Commands {
+public class Topic_03_WebElements_Commands {
     WebDriver driver;
 
     @BeforeClass

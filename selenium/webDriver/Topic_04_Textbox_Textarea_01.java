@@ -28,7 +28,7 @@ public class Topic_04_Textbox_Textarea_01 {
     }
 
     @Test
-    public void TC_01_liveTechpanda/() {
+    public void TC_01_liveTechpanda() {
         driver.get("http://live.techpanda.org/");
         driver.findElement(By.xpath("//div[@class='footer']//li[@class='first']/a[text()='My Account']")).click();
         driver.findElement(By.xpath("//span[text()='Create an Account']")).click();
